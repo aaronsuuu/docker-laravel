@@ -1,0 +1,9 @@
+version: '1.0'
+services:
+  laravel:
+    image: bitnami/laravel:9.3.7
+    container_name: laravel
+    ports:
+      - 8000:8000
+    volumes:
+      - ../app:/app
